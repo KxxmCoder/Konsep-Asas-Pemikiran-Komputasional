@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FINAL FINAL FORM | Asas Pemikiran Komputasional</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --primary:#6a11cb;
+      --secondary:#2575fc;
+      --accent:#ff9800;
+      --dark:#0b0b18;
+      --bg:#f4f6fb;
+      --card:#ffffff;
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:'Poppins',sans-serif;background:var(--bg);color:#333;line-height:1.8}
+
+    header{
+      background:radial-gradient(circle at top, #7f00ff, #3f0d7a, #000);
+      color:#fff;padding:110px 20px;text-align:center
+    }
+    header h1{font-size:3.5rem}
+    header span{color:#ffd54f}
+    header p{max-width:900px;margin:20px auto;font-size:1.15rem}
+
+    nav{
+      position:sticky;top:0;z-index:100;
+      background:#fff;display:flex;flex-wrap:wrap;justify-content:center;gap:18px;
+      padding:14px;box-shadow:0 6px 18px rgba(0,0,0,.15)
+    }
+    nav a{text-decoration:none;font-weight:600;color:var(--primary)}
+    nav a:hover{color:var(--secondary)}
+
+    section{padding:90px 20px;max-width:1250px;margin:auto}
+    h2{text-align:center;font-size:2.8rem;color:var(--primary);margin-bottom:55px}
+
+    .card-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(270px,1fr));gap:32px}
+    .card{
+      background:var(--card);border-radius:26px;padding:34px;
+      box-shadow:0 18px 45px rgba(0,0,0,.15);
+      transition:.5s
+    }
+    .card:hover{transform:translateY(-14px) scale(1.04)}
+
+    .flow{display:flex;flex-wrap:wrap;justify-content:center;gap:26px}
+    .flow div{background:linear-gradient(135deg,#ff9800,#ffb74d);padding:20px 30px;border-radius:60px;font-weight:700;color:#fff}
+
+    .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:30px}
+    .step{background:#fff;border-left:10px solid var(--accent);padding:30px;border-radius:18px}
+
+    table{width:100%;border-collapse:collapse;background:#fff;border-radius:20px;overflow:hidden;box-shadow:0 16px 40px rgba(0,0,0,.15)}
+    th,td{padding:16px;text-align:center}
+    th{background:var(--primary);color:#fff}
+    tr:nth-child(even){background:#f3f3f3}
+
+    .boss{
+      background:linear-gradient(135deg,#000,#1c1c3c,#000);
+      color:#fff;border-radius:30px;padding:45px;box-shadow:0 25px 60px rgba(0,0,0,.5)
+    }
+
+    .quiz button{
+      margin:10px;padding:16px 30px;border:none;border-radius:14px;
+      background:var(--secondary);color:#fff;font-weight:700;cursor:pointer
+    }
+
+    .badge{
+      margin-top:20px;display:none;text-align:center;
+      font-size:1.4rem;font-weight:700;color:#ffd54f
+    }
+
+    .judge{
+      background:#111;color:#eee;border-radius:22px;padding:35px;margin-top:40px
+    }
+
+    footer{background:#05050f;color:#aaa;text-align:center;padding:40px;margin-top:120px}
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>💀 FINAL FINAL FORM 💀<br><span>Asas Pemikiran Komputasional</span></h1>
+  <p>Versi elit bertaraf pertandingan antarabangsa dengan pembelajaran interaktif, pemikiran aras tinggi dan penilaian kendiri.</p>
+</header>
+
+<nav>
+  <a href="#intro">Intro</a>
+  <a href="#process">Proses</a>
+  <a href="#tech">Teknik</a>
+  <a href="#example">Anak Tangga</a>
+  <a href="#boss">Boss</a>
+  <a href="#judge">Judge Mode</a>
+</nav>
+
+<section id="intro">
+  <h2>Pengenalan Elit</h2>
+  <div class="card-grid">
+    <div class="card"><h3>Definisi</h3><p>Pemikiran komputasional ialah strategi berfikir untuk menyelesaikan masalah secara sistematik menggunakan prinsip sains komputer.</p></div>
+    <div class="card"><h3>Relevan</h3><p>Digunakan dalam AI, kejuruteraan, data sains dan pembuatan keputusan harian.</p></div>
+    <div class="card"><h3>Hasil Pembelajaran</h3><p>Murid mampu menganalisis, mereka bentuk dan menilai penyelesaian secara logik.</p></div>
+  </div>
+</section>
+
+<section id="process">
+  <h2>Proses Pemikiran Komputasional</h2>
+  <div class="flow">
+    <div>Leraikan Masalah</div>
+    <div>Kenal Pasti Corak</div>
+    <div>Peniskalaan</div>
+    <div>Pengitlakan</div>
+  </div>
+</section>
+
+<section id="tech">
+  <h2>4 Teknik Teras</h2>
+  <div class="steps">
+    <div class="step"><h3>Leraian</h3><p>Memecahkan masalah kompleks kepada komponen kecil.</p></div>
+    <div class="step"><h3>Pengecaman Corak</h3><p>Mengenal pasti persamaan antara masalah.</p></div>
+    <div class="step"><h3>Peniskalaan</h3><p>Menapis maklumat tidak penting dan fokus kepada ciri utama.</p></div>
+    <div class="step"><h3>Pengitlakan</h3><p>Membina peraturan umum atau formula.</p></div>
+  </div>
+</section>
+
+<section id="example">
+  <h2>Masalah Anak Tangga</h2>
+  <table>
+    <tr><th>Bahagian</th><th>Panjang</th><th>Lebar</th><th>Tinggi</th><th>Jumlah Bata</th></tr>
+    <tr><td>(a)</td><td>5</td><td>1</td><td>1</td><td>5</td></tr>
+    <tr><td>(b)</td><td>5</td><td>1</td><td>2</td><td>10</td></tr>
+    <tr><td>(c)</td><td>5</td><td>1</td><td>3</td><td>15</td></tr>
+    <tr><td>(d)</td><td>5</td><td>1</td><td>4</td><td>20</td></tr>
+    <tr><td>(e)</td><td>5</td><td>1</td><td>5</td><td>25</td></tr>
+    <tr><th colspan="4">Jumlah Keseluruhan</th><th>75</th></tr>
+  </table>
+</section>
+
+<section id="boss">
+  <h2>☠️ Ultimate Boss Challenge ☠️</h2>
+  <div class="boss quiz">
+    <p><b>Soalan:</b><br>Teknik manakah membolehkan pembinaan formula umum bagi pelbagai masalah serupa?</p>
+    <button onclick="win()">Pengitlakan</button>
+    <button onclick="fail()">Peniskalaan</button>
+    <button onclick="fail()">Leraian</button>
+    <div id="badge" class="badge">🏆 TAHNIAH! ANDA LULUS FINAL FINAL FORM 🏆</div>
+  </div>
+</section>
+
+<section id="judge">
+  <h2>👁️ Judge Mode</h2>
+  <div class="judge">
+    <p><b>Kenapa projek ini kuat?</b></p>
+    <ul>
+      <li>Menggunakan pemikiran komputasional untuk menerangkan pemikiran komputasional.</li>
+      <li>Menggabungkan teori, aplikasi dan penilaian kendiri.</li>
+      <li>Reka bentuk profesional dan interaktif.</li>
+      <li>Memenuhi elemen KSSR dan pembelajaran abad ke-21.</li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  <p>👑 FINAL FINAL FORM CLEARED 👑<br>Asas Pemikiran Komputasional | International Competition Ready</p>
+</footer>
+
+<script>
+  function win(){
+    document.getElementById('badge').style.display='block';
+    alert('LEGENDARY CLEAR!');
+  }
+  function fail(){
+    alert('Belum betul. Fikirkan tentang formula umum.');
+  }
+</script>
+
+</body>
+</html>
